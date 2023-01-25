@@ -58,6 +58,17 @@
       };
     }
 
+
+const sliderImages = document.querySelectorAll('.slide-in')
+for(let t of sliderImages){
+  t.addEventListener("scroll",assignActive)
+}
+function assignActive(e){
+
+}
+   debounce(assignActive)
+
+
   </script>
 
   <style>
